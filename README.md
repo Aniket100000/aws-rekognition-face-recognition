@@ -18,11 +18,31 @@ Linux (CloudShell environment)
 
 🏗️ Architecture
 
+
+User
+│
+▼
+Amazon S3 Bucket
+│
+▼
+AWS Rekognition Service
+│
+▼
+Face Collection Database
+│
+▼
+Match Result (Confidence Score)
+
 1.Images are uploaded to an S3 bucket
+
 2.A face collection is created using AWS Rekognition
+
 3.Faces are indexed from stored images
+
 4.A test image is compared against the collection
+
 5.Rekognition returns:
+
 >Face match confidence
 >Face ID
 >Bounding box & landmarks
