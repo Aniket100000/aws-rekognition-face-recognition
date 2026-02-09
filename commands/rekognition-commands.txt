@@ -1,1 +1,7 @@
+aws rekognition create-collection --collection-id free-face-collection
 
+aws rekognition index-faces --collection-id free-face-collection --image "S3Object={Bucket=face-recognition-free-test,Name=test/person1.jpeg}" --external-image-id person1
+
+aws rekognition search-faces-by-image --collection-id free-face-collection --image "S3Object={Bucket=face-recognition-free-test,Name=test/test.jpeg}"
+
+aws rekognition delete-collection --collection-id free-face-collection
