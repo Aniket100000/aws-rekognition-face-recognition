@@ -125,3 +125,124 @@ Integrate with a web application
 Store results in DynamoDB
 Add IAM role-based security
 
+
+# 🚀 FaceID Cloud – Intelligent Face Recognition System
+
+A modern **AI-powered Face Recognition Web App** built using **AWS Rekognition, Flask, and EC2**, featuring a sleek UI and real-time face matching.
+
+---
+
+## 🌐 Live Demo
+👉 http://13.233.45.217:5000
+
+---
+
+## ✨ Features
+
+- 🔍 Upload image and detect faces instantly
+- 🤖 AWS Rekognition powered face matching
+- ⚡ Fast response (<2 seconds)
+- 🎯 High accuracy (~99%)
+- 🧠 Smart face collection matching
+- 💻 Modern UI/UX with interactive dashboard
+- ☁️ Deployed on AWS EC2
+
+---
+
+## 🖥️ Tech Stack
+
+### 🔹 Frontend
+- HTML5
+- CSS3 (Modern UI Design)
+- JavaScript
+
+### 🔹 Backend
+- Flask (Python)
+
+### 🔹 Cloud Services
+- AWS EC2 (Hosting)
+- AWS Rekognition (Face Detection & Matching)
+- AWS IAM (Secure Access Control)
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Home Page
+![Home](screenshots/collection-created.png)
+
+### 🔹 Face Detection
+![Detection](screenshots/face-indexed.png)
+
+### 🔹 Match Result
+![Match](screenshots/face-matched.png)
+
+---
+
+## ⚙️ How It Works
+
+1. Upload an image
+2. Flask backend receives the file
+3. Image is sent to AWS Rekognition
+4. Rekognition searches face in collection
+5. Results displayed with confidence score
+
+---
+
+## 📂 Project Structure
+
+
+├── app.py
+├── templates/
+├── static/
+├── screenshots/
+├── commands/
+└── README.md
+
+
+---
+
+## 🚀 Deployment
+
+- Hosted on AWS EC2 instance
+- Flask app running on port 5000
+- Public IP used for access
+
+---
+
+## 🔐 Security
+
+- IAM roles used for secure API access
+- No hardcoded credentials
+- Controlled Rekognition access
+
+---
+
+## 📊 Example Output
+
+- Match Found ✅
+- Confidence: **100%**
+- Collection: `free-face-collection`
+
+---
+
+## 💡 Future Improvements
+
+- User authentication system
+- Real-time webcam detection
+- Mobile responsiveness improvements
+- HTTPS (SSL) integration
+
+---
+
+## 👨‍💻 Author
+
+**Aniket Kushwaha**
+- 📧 Aniketkushwaha10064@gmail.com
+- 📱 9736550069
+
+---
+
+## ⭐ If you like this project
+Give it a ⭐ on GitHub!
+
